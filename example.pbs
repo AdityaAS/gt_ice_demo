@@ -1,0 +1,24 @@
+
+#PBS -N cifar10_tutorial                    # name of job
+#PBS -A GT-<username>            # account to which job is charged, ex: GT-gburdell3
+#PBS -l nodes=1:ppn=10              # resources allocated, 1 node 2 processors
+#PBS -l pmem=5gb                    # memory per core
+#PBS -l walltime=20:00              # job will run at most 15 min
+#PBS -q coc-ice-gpu                 # job is submitted to inferno queue
+#PBS -j oe                          # output and error is combined into the same file
+#PBS -o sample.out                 # output file is named gettingStarted.out
+                                    # computation starts here
+cd $PBS_O_WORKDIR                   # changes into directory where script was submitted from
+
+# Execution begins
+echo "Started on `/bin/hostname`"   # prints name of compute node job was started on
+module load anaconda3/2019.10
+conda activate smr_test #This is something you'll have to create for your project
+python sample.py ## Copy from https://github.com/pytorch/tutorials/edit/master/beginner_source/blitz/cifar10_tutorial.py
+
+
+#Sharing a file I wrote for another course (CS 8803 SMR) on getting started with CoC-ICE. People can just follow the document as is and should be able to submit jobs to ICE.
+
+#https://gist.github.com/AdityaAS/3a1ec5f6d491eb5cf44cb46610bb79da
+
+#We also conducted an online session for the students of that class. If there's enough interest, I can speak with the professor and share the recordings.

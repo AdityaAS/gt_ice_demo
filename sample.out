@@ -1,0 +1,66 @@
+---------------------------------------
+Begin PBS Prologue Wed Oct 27 14:22:46 EDT 2021
+Job ID:     208512.sched-coc-ice.pace.gatech.edu
+User ID:    sannavajjala6
+Job name:   cifar10_tutorial
+Queue:      coc-ice-gpu
+End PBS Prologue Wed Oct 27 14:22:46 EDT 2021
+---------------------------------------
+Started on atl1-1-01-002-1.pace.gatech.edu
+Traceback (most recent call last):
+  File "sample.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+---------------------------------------
+Begin PBS Epilogue Wed Oct 27 14:22:50 EDT 2021
+Job ID:     208512.sched-coc-ice.pace.gatech.edu
+User ID:    sannavajjala6
+Job name:   cifar10_tutorial
+Resources:  nodes=1:ppn=10,pmem=5gb,walltime=00:20:00,neednodes=1:ppn=10
+Rsrc Used:  cput=00:00:01,vmem=0kb,walltime=00:00:04,mem=0kb,energy_used=0
+Queue:      coc-ice-gpu
+Nodes:     
+atl1-1-01-002-1.pace.gatech.edu
+End PBS Epilogue Wed Oct 27 14:23:11 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Wed Oct 27 14:29:29 EDT 2021
+Job ID:     208517.sched-coc-ice.pace.gatech.edu
+User ID:    sannavajjala6
+Job name:   cifar10_tutorial
+Queue:      coc-ice-gpu
+End PBS Prologue Wed Oct 27 14:29:29 EDT 2021
+---------------------------------------
+Started on atl1-1-01-002-1.pace.gatech.edu
+2021-10-27 14:30:09,742 | root | INFO | sample.py:<module>:52 | Pytorch cuda available: False
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:53 | PyTorch version: 1.10.0
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:52 | Pytorch cuda available: False
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:53 | PyTorch version: 1.10.0
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:52 | Pytorch cuda available: False
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:53 | PyTorch version: 1.10.0
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:52 | Pytorch cuda available: False
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:53 | PyTorch version: 1.10.0
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:52 | Pytorch cuda available: False
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:53 | PyTorch version: 1.10.0
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:52 | Pytorch cuda available: False
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:53 | PyTorch version: 1.10.0
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:52 | Pytorch cuda available: False
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:53 | PyTorch version: 1.10.0
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:52 | Pytorch cuda available: False
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:53 | PyTorch version: 1.10.0
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:52 | Pytorch cuda available: False
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:53 | PyTorch version: 1.10.0
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:52 | Pytorch cuda available: False
+2021-10-27 14:30:09,743 | root | INFO | sample.py:<module>:53 | PyTorch version: 1.10.0
+---------------------------------------
+Begin PBS Epilogue Wed Oct 27 14:30:13 EDT 2021
+Job ID:     208517.sched-coc-ice.pace.gatech.edu
+User ID:    sannavajjala6
+Job name:   cifar10_tutorial
+Resources:  nodes=1:ppn=10,pmem=5gb,walltime=00:20:00,neednodes=1:ppn=10
+Rsrc Used:  cput=00:00:02,vmem=840740kb,walltime=00:00:44,mem=17204kb,energy_used=0
+Queue:      coc-ice-gpu
+Nodes:     
+atl1-1-01-002-1.pace.gatech.edu
+End PBS Epilogue Wed Oct 27 14:30:15 EDT 2021
+---------------------------------------

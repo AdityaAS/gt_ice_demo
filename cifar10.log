@@ -1,0 +1,7 @@
+2021-10-22 14:16:29,451 | root | INFO | cifar10_tutorial.py:<module>:213 | [1,  2000] loss: 2.190
+2021-10-22 14:17:58,511 | root | INFO | cifar10_tutorial.py:<module>:213 | [1,  4000] loss: 1.900
+2021-10-22 14:18:51,283 | root | INFO | cifar10_tutorial.py:<module>:213 | [1,  6000] loss: 1.705
+2021-10-22 14:19:44,003 | root | INFO | cifar10_tutorial.py:<module>:213 | [1,  8000] loss: 1.622
+2021-10-22 14:20:37,166 | root | INFO | cifar10_tutorial.py:<module>:213 | [1, 10000] loss: 1.525
+2021-10-22 14:21:31,593 | root | INFO | cifar10_tutorial.py:<module>:213 | [1, 12000] loss: 1.522
+2021-10-22 14:21:45,193 | root | INFO | cifar10_tutorial.py:<module>:217 | Finished Training

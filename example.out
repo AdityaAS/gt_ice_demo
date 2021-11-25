@@ -1,0 +1,34 @@
+---------------------------------------
+Begin PBS Prologue Fri Oct 22 13:37:48 EDT 2021
+Job ID:     201735.sched-coc-ice.pace.gatech.edu
+User ID:    sannavajjala6
+Job name:   cifar10
+Queue:      coc-ice-gpu
+End PBS Prologue Fri Oct 22 13:37:48 EDT 2021
+---------------------------------------
+Started on atl1-1-01-002-1.pace.gatech.edu
+Files already downloaded and verified
+Files already downloaded and verified
+2021-10-22 13:39:02,351 | root | INFO | cifar10_tutorial.py:<module>:213 | [1,  2000] loss: 2.172
+2021-10-22 13:40:06,694 | root | INFO | cifar10_tutorial.py:<module>:213 | [1,  4000] loss: 1.811
+2021-10-22 13:41:13,157 | root | INFO | cifar10_tutorial.py:<module>:213 | [1,  6000] loss: 1.651
+2021-10-22 13:42:20,290 | root | INFO | cifar10_tutorial.py:<module>:213 | [1,  8000] loss: 1.564
+2021-10-22 13:43:27,619 | root | INFO | cifar10_tutorial.py:<module>:213 | [1, 10000] loss: 1.502
+2021-10-22 13:44:34,973 | root | INFO | cifar10_tutorial.py:<module>:213 | [1, 12000] loss: 1.460
+2021-10-22 13:44:51,878 | root | INFO | cifar10_tutorial.py:<module>:217 | Finished Training
+Traceback (most recent call last):
+  File "cifar10_tutorial.py", line 245, in <module>
+    imshow(torchvision.utils.make_grid(images))
+NameError: name 'imshow' is not defined
+---------------------------------------
+Begin PBS Epilogue Fri Oct 22 13:44:52 EDT 2021
+Job ID:     201735.sched-coc-ice.pace.gatech.edu
+User ID:    sannavajjala6
+Job name:   cifar10
+Resources:  nodes=1:ppn=10,pmem=5gb,walltime=00:15:00,neednodes=1:ppn=10
+Rsrc Used:  cput=01:09:06,vmem=8063920kb,walltime=00:07:04,mem=425808kb,energy_used=0
+Queue:      coc-ice-gpu
+Nodes:     
+atl1-1-01-002-1.pace.gatech.edu
+End PBS Epilogue Fri Oct 22 13:45:13 EDT 2021
+---------------------------------------
